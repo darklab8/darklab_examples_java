@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  test:
+    cmds:
+      - ./gradlew test --tests '*{{.CLI_ARGS}}'
